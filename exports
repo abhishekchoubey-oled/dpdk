@@ -10,6 +10,7 @@ export PATH=$PATH:/home/stm/dpdk-19.11/usertools
 modprobe uio
 modprobe uio_pci_generic
 insmod  /home/stm/dpdk-19.11/build/kmod/igb_uio.ko
+insmod  /home/stm/dpdk-19.11/build/kmod/rte_kni.ko
 dpdk-devbind.py -u ens224
 dpdk-devbind.py -u ens192
 
