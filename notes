@@ -1,0 +1,3 @@
+kni - 
+For every port there is a kni_port whose config is maintained in a kni_port_params_array[port_id
+]
